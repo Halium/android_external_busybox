@@ -13,6 +13,7 @@
 #include "platform.h"
 
 #ifdef __BIONIC__
+#define __USE_GNU 1  // required for strchrnul()
 /* work around "extern inline" (under std=gnu99) ctype definitions we don't use anyway */
 # ifdef NDEBUG
 #  define NDEBUG_TMP NDEBUG
