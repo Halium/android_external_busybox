@@ -7,7 +7,8 @@
  * Licensed under GPLv2, see file LICENSE in this source tree.
  */
 #include <netinet/ether.h>
-#include <net/if_ether.h>
+#include <linux/if_ether.h>
+#include <net/ethernet.h>
 
 #include "common.h"
 #include "dhcpd.h"

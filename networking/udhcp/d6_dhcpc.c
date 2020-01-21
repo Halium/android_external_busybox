@@ -34,6 +34,7 @@
 #include <netinet/if_ether.h>
 #include <netpacket/packet.h>
 #include <linux/filter.h>
+#include <linux/if_ether.h>
 
 /* "struct client_config_t client_config" is in bb_common_bufsiz1 */
 
